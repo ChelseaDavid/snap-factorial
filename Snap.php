@@ -1,15 +1,3 @@
-<?php // My way
-function Factorial($n) {
-	$factorial = $n * ($n-1) * ($n-2)* ($n-3) * 2 * 1;
-	for ($i=1; $i <= $n; $i++){
-		$factorial = $n * $i;
-	}
-	return $factorial;
-}
-
-?>
-
-<!-- Dylans way -->
 
 <?php
 function factorial(int $n): int {
