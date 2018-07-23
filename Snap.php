@@ -6,9 +6,8 @@ function Factorial($n) {
 	}
 	return $factorial;
 }
-$fact = Factorial($n);
-echo "Factorial = $fact";
+
 ?>
 
-<?php
+
 
